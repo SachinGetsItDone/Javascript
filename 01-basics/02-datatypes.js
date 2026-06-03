@@ -19,5 +19,8 @@ console.log(typeof "sachin");
 console.log(typeof false);
 console.log(typeof 1); // this is a number in js
 console.log(typeof 1.22); // this is a number in js
+console.log(typeof null); // object
+console.log(typeof undefined); // undefined 
+
 
 
