@@ -82,19 +82,44 @@ NaN => 0
 // console.log(2/2);
 // console.log(2%2);
 
-console.log("1" + 2);
-console.log(1 + "2");
-console.log("1" + 2 + 2);
-console.log(1 + 2 + "2");
-console.log(((3 + 4) * 5) % 3);
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+// console.log(((3 + 4) * 5) % 3);
 
 
-let game_counter = 100
+// let game_counter = 100
 // game_counter = game_counter + 1
 // game_counter += 1
-let result = ++game_counter + game_counter++ + game_counter--
+// let result = ++game_counter + game_counter++ + game_counter--
 // console.log(++game_counter)
 // console.log(game_counter++)
 
-console.log(result)
+// console.log(result)
 
+let this_function = function(){
+    console.log("hellow world");
+}
+
+this_function()
+
+let this_user = {
+    name: "sachin",
+    email: "sachindotcom"
+}
+
+console.table({
+    this_function: typeof this_function,
+    this_user: typeof this_user
+})
+
+/* 
+Stack => Primitive data types (number, string, boolean, null, undefined, symbol, bigInt)
+gets a copy of data when assigned to another variable or passed to a function
+and that can be changed without affecting the original data
+whereas in heap
+Heap => Non-primitive data types (object, array, function)
+gets a reference when assigned to another variable or passed to a function
+and that reference points to the same data in memory, so changes to the data through one reference will affect all references to that data.
+*/
