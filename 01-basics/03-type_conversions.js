@@ -89,6 +89,12 @@ console.log(1 + 2 + "2");
 console.log(((3 + 4) * 5) % 3);
 
 
+let game_counter = 100
+// game_counter = game_counter + 1
+// game_counter += 1
+let result = ++game_counter + game_counter++ + game_counter--
+// console.log(++game_counter)
+// console.log(game_counter++)
 
-
+console.log(result)
 
