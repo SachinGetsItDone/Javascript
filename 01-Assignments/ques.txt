@@ -1,0 +1,1 @@
+Take "  Hello World  ". Log it trimmed, its length before and after trimming, and whether it includes "World".
