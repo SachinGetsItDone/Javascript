@@ -36,5 +36,5 @@ console.log(myNewArray2)
 console.log(myArr)
 
 
-// Slice print the part of an array excluding the end 
+// Slice print the part of an array excluding the end
 // Splice cut out a part of an array from the original one
