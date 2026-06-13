@@ -39,5 +39,14 @@ const { log } = require("node:console");
 // const flatten_array = nD_Array.flat(Infinity);
 // console.log(flatten_array)
 
+console.log(Array.isArray("Sachin"))
 
+console.log(Array.from({
+    name: 'Sachin'
+}))
+console.log(Array.from("Sachin"))
 
+const score1 = 100
+const score2 = 200
+const score3 = 300
+console.log(Array.of(score1, score2, score3))
