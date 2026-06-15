@@ -1,5 +1,5 @@
 // Declare name (const), age (let), and isStudent (boolean). 
-// Log one sentence using template literals that uses all three.
+// Log one sentence using template literals that uses all three
 
 const name = "Sachin";
 let age = 20;
