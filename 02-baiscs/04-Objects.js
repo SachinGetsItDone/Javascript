@@ -70,3 +70,12 @@ const schools = {
 
 const { address: school_address } = schools
 console.log(school_address)
+
+
+const username = "Sachin"
+const age = 22
+
+const user = { username, age }
+console.log(user["username"]);
+console.log(user[username]); // this will print undefined
+
