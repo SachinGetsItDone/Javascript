@@ -59,3 +59,6 @@ const testGlobalArrowThis = () => {
 testGlobalArrowThis();
 
 // Parentheses are only mandatory when you want to implicitly return an Object Literal.
+// If you don't use parentheses when returning an object,
+// JavaScript gets confused. It sees the curly braces { of the object and thinks they are the curly 
+// braces of a function block, which breaks the implicit return:
