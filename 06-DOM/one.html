@@ -1,162 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM Learning Playground | Chai aur Code</title>
+
+    <title>DOM learning</title>
     <style>
-        :root {
-            --bg-color: #0d1117;
-            --card-bg: #161b22;
-            --border-color: #30363d;
-            --text-primary: #c9d1d9;
-            --text-secondary: #8b949e;
-            --accent-color: #58a6ff;
-            --accent-hover: #1f6feb;
-            --success-color: #238636;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-primary);
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        .container {
-            max-width: 600px;
-            width: 100%;
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-        }
-
-        h1 {
-            color: var(--accent-color);
-            margin-top: 0;
-            font-size: 2rem;
-            border-bottom: 2px solid var(--border-color);
-            padding-bottom: 10px;
-        }
-
-        p.description {
-            color: var(--text-secondary);
-            font-size: 1rem;
-            line-height: 1.6;
-        }
-
-        .list-container {
-            margin-top: 20px;
-        }
-
-        .list-title {
-            font-size: 1.2rem;
-            margin-bottom: 10px;
-            color: var(--text-primary);
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        li {
-            background-color: rgba(255, 255, 255, 0.03);
-            border: 1px solid var(--border-color);
-            padding: 12px 16px;
-            margin-bottom: 8px;
-            border-radius: 6px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: all 0.3s ease;
-        }
-
-        li:hover {
-            border-color: var(--accent-color);
-            transform: translateX(5px);
-        }
-
-        .badge {
-            background-color: var(--accent-color);
-            color: var(--bg-color);
-            font-size: 0.8rem;
-            padding: 2px 8px;
-            border-radius: 12px;
-            font-weight: bold;
-        }
-
-        .input-group {
-            margin-top: 25px;
-            display: flex;
-            gap: 10px;
-        }
-
-        input[type="text"] {
-            flex: 1;
-            background-color: var(--bg-color);
-            border: 1px solid var(--border-color);
-            color: var(--text-primary);
-            padding: 10px 15px;
-            border-radius: 6px;
-            outline: none;
-            font-size: 0.95rem;
-        }
-
-        input[type="text"]:focus {
-            border-color: var(--accent-color);
-        }
-
-        button {
-            background-color: var(--success-color);
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: background 0.2s ease;
-        }
-
-        button:hover {
-            opacity: 0.9;
+        .bg-black {
+            background-color: #212121;
+            color: #fff;
         }
     </style>
 </head>
-<body>
-    <div class="container" id="main-container">
-        <h1 id="title" class="heading">DOM Learning Playground</h1>
-        <p class="description" style="display: block;">
-            Welcome to the DOM (Document Object Model) learning playground. Open the browser developer console (F12 or inspect element) to experiment with selection and styling queries.
-        </p>
-        
-        <div class="list-container">
-            <h2 class="list-title">Learning Checkpoints</h2>
-            <ul id="items-list">
-                <li class="list-item"><span>Understanding DOM Basics</span> <span class="badge">Part 1</span></li>
-                <li class="list-item"><span>Targeting Elements (Selectors)</span> <span class="badge">Part 2</span></li>
-                <li class="list-item"><span>HTMLCollections vs NodeLists</span> <span class="badge">Part 3</span></li>
-                <li class="list-item"><span>Creating & Removing Elements</span> <span class="badge">Part 4</span></li>
-            </ul>
-        </div>
 
-        <div class="input-group">
-            <input type="text" id="new-item-input" placeholder="Type new checkpoint...">
-            <button id="add-btn">Add Item</button>
-        </div>
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+            <li class="list-item">four</li>
+        </ul>
     </div>
-
-    <!-- We will use this space to practice DOM manipulation directly or via script -->
-    <script>
-        // Practice scripts can be written here or in the console.
-    </script>
 </body>
+
 </html>
